@@ -1,0 +1,22 @@
+<%- include("partials/header.ejs") %>
+
+<main class="mt-5">
+    <div class="container">
+        <h2 class="my-4 text-center">Create Post</h2>
+
+        <form action="/create-post" method="POST">
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" class="form-control" id="title" name="title">
+            </div>
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea type="text" class="form-control" style="height: 400px" id=" description"
+                    name="description"></textarea>
+            </div>
+            <button type="submit" id="create-post-button" class="btn custom-btn">Create</button>
+        </form>
+    </div>
+</main>
+
+<%- include("partials/footer.ejs") %>

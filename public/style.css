@@ -1,0 +1,53 @@
+header, footer{
+    background-color: #8E3E63;
+    color: #F6FAB9;
+}
+
+header .custom-btn, header .custom-btn:hover{
+    background-color: #D2649A;
+    color: #F6FAB9;
+    border: 1px solid #D2649A;
+}
+
+main .custom-btn, main .custom-btn:hover{
+    background-color: #8E3E63;
+    color: #F6FAB9;
+    border: 1px solid #8E3E63;
+}
+
+.logo{
+    color: #F6FAB9;
+}
+
+.nav-link, .nav-link:hover{
+    color: #F6FAB9;
+}
+
+.nav-pills .nav-link.active{
+    color: #F6FAB9;
+    background-color: #D2649A;
+}
+
+body{
+    background-color: #D2649A;
+}
+
+.card{
+    background-color: #F1D3CE;
+}
+
+main{
+    color: #F6FAB9;
+    min-height: 100vh;    
+    margin-bottom: 2rem;
+}
+
+.icon-link {
+    color: #8E3E63;
+    text-decoration-color: #8E3E63;
+}
+
+.card-text{
+    overflow: hidden;
+    white-space: nowrap;
+}
